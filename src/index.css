@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.LemonApp {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+
+  .MainLeftSider {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+    .Profile {
+      flex: 0.25;
+      /* background-color:aquamarine; */
+    }
+
+    .Navigation {
+      flex: 0.75
+    }
+  }
+
+  .MainCenter {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+
+    .Search {
+      flex: 0.1;
+    }
+
+    .Context {
+      flex: 0.7;
+    }
+
+    .Player {
+      flex: 0.2;
+    }
+  }
+
+  .MainRightSider {
+    width: 15%;
+  }
+}
+
+
+.layoutStyle {
+  /* background-color: #3ba019 !important */
+}
